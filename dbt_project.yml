@@ -17,3 +17,9 @@ seeds:
   my_new_project:
     +schema: raw
     +quote_columns: true
+
+models:
+  my_new_project:
+    staging:
+      +schema: staging
+      +materialized: view
