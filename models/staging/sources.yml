@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SUPERSTORE_DB
+    schema: DBT_SWADHIA_RAW
+    tables:
+      - name: SAMPLESUPERSTORE
